@@ -14,8 +14,8 @@ class Student:
 
 
 # Creating objects
-s1 = Student("Atharva", 85)
-s2 = Student("Rahul", 75)
+s1 = Student("Bhavesh", 85)
+s2 = Student("Atharva", 45)
 
 # __str__() is called automatically
 print(s1)
@@ -28,7 +28,7 @@ else:
     print(s2.name, "has higher marks.")
 
 '''
-Student Name: Atharva, Marks: 85
-Student Name: Rahul, Marks: 75
+Student Name: Bhavesh, Marks: 85
+Student Name: Atharva, Marks: 45
 Atharva has higher marks.
 '''
