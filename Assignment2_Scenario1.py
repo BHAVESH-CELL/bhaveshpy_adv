@@ -37,7 +37,7 @@ class Cinema:
 
 
 # Main Program
-m1 = Movie("Doomsday", 10, 700)
+m1 = Movie("MULSHI PATTERN", 10, 1200)
 
 cinema = Cinema()
 cinema.display_movie(m1)
@@ -47,9 +47,9 @@ cinema.display_movie(m1)
 ===================================
       MOVIE DETAILS
 ===================================
-Movie Name : Doomsday
+Movie Name : MULSHI PATTERN
 Rating : 10
-Ticket Price : 700
+Ticket Price : 1200
 Category : Hit
 ===================================
 """
