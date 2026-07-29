@@ -40,7 +40,7 @@ class Store:
 
 
 # Main Program
-m1 = Mobile("Samsung", "Galaxy S24", 75000)
+m1 = Mobile("Apple", "Iphone_16", 126000)
 
 store = Store()
 store.add_mobile(m1)
@@ -50,9 +50,9 @@ store.display_mobile(m1)
 ===================================
       MOBILE DETAILS
 ===================================
-Brand : Samsung
-Model : Galaxy S24
-Price : 75000
+Brand : Apple
+Model : Iphone 16
+Price : 126000
 Category : Premium
 ===================================
 """
