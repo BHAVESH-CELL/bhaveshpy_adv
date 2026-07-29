@@ -45,7 +45,7 @@ class Report:
 
 
 # Main Program
-student1 = Report("Deep", 101, 85)
+student1 = Report("Sarthak", 1857, 86)
 student1.display_report()
 
 print()
@@ -53,7 +53,7 @@ print()
 # Change college name
 Report.change_college("MIT ADT UNIVERSITY")
 
-student2 = Report("Atharva", 102, 90)
+student2 = Report("Bhavesh", 1114, 55)
 student2.display_report()
 
 
@@ -63,9 +63,9 @@ student2.display_report()
         STUDENT REPORT
 ========================================
 College : ABC Engineering College
-Name : Deep
-Roll No : 101
-Marks : 85
+Name : Sarthak
+Roll No : 1857
+Marks : 86
 Result : PASS
 ========================================
 
@@ -73,9 +73,9 @@ Result : PASS
         STUDENT REPORT
 ========================================
 College : MIT ADT UNIVERSITY
-Name : Atharva
-Roll No : 102
-Marks : 90
+Name : Bhavesh
+Roll No : 1144
+Marks : 55
 Result : PASS
 ========================================
 """
