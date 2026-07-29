@@ -38,7 +38,7 @@ class Showroom:
 
 
 # Main Program
-v1 = Vehicle("MH42BN6993", "Defender", 11000000)
+v1 = Vehicle("MH18BO7020", "12TYRE_HYVA", 6000000)
 
 showroom = Showroom()
 showroom.add_vehicle(v1)
@@ -49,9 +49,9 @@ showroom.display_vehicle(v1)
 ===================================
    VEHICLE SHOWROOM
 ===================================
-Vehicle Number : MH42BN6993
-Brand : Defender
-Price : 11000000
+Vehicle Number : MH18BP7020
+Brand : 12TYRE_HYVA
+Price : 6000000
 Category : Luxury
 ===================================
 """
