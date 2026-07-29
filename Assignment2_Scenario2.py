@@ -38,7 +38,7 @@ class Hospital:
 
 
 # Main Program
-p1 = Patient(101, "Yashraj", 60000)
+p1 = Patient(102, "Sarthak", 600000)
 
 hospital = Hospital()
 hospital.add_patient(p1)
@@ -48,9 +48,9 @@ hospital.display_patient(p1)
 ===================================
      HOSPITAL RECORD
 ===================================
-Patient ID : 101
-Name : Yashraj
-Treatment Cost : 60000
+Patient ID : 102
+Name : Sarthak
+Treatment Cost : 600000
 Category : Special
 ===================================
 """
