@@ -1,0 +1,28 @@
+# Open the input file and read all lines
+with open("input.txt", "r") as infile:
+    lines = infile.readlines()
+
+# Count total number of lines
+total_lines = len(lines)
+print("Total number of lines in input file:", total_lines)
+
+# Reverse the order of lines
+reversed_lines = lines[::-1]
+
+print("\nReversed lines are:")
+for line in reversed_lines:
+    print(line, end="")
+
+# Write the reversed lines into a new file
+with open("output_reverse.txt", "w") as outfile:
+    outfile.writelines(reversed_lines)
+
+print("\n\nThe reversed lines have been saved into output_reverse.txt")
+
+
+
+#OUTPUT
+
+This is line three
+Python File Handling
+Hello World
